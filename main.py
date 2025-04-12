@@ -28,8 +28,8 @@ async def botinfo(ctx):
     embed.add_field(name="Bot Version", value="0.5.0", inline=False)
     embed.add_field(name="Bot Prefix", value="a.", inline=False)
     embed.add_field(name="Coding Language/Library", value="discord.py/Python", inline=False)
-    embed.add_field(name="Github Repository", value="https://github.com/ashdsc/asuna", inline=False)
-    embed.add_field(name="Bot Creator", value="ashdsc", inline=False)
+    embed.add_field(name="Github Repository", value="https://github.com/x/asuna", inline=False)
+    embed.add_field(name="Bot Creator", value="x", inline=False)
     embed.set_footer(text="Asuna BotInfo", icon_url=client.user.avatar_url)
     await ctx.send(embed=embed)
 
