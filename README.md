@@ -1,7 +1,1 @@
-# asuna
-
-
-# Asuna is a Discord bot coded with the discord.py library and has lots of cool features.
-
-
-# The project of Asuna was ceased in late 2022.
+#### Asuna was a Discord bot coded in Python that served as a personal project. Development of Asuna has ceased as of late 2022. The repository now is an archival of the code.
