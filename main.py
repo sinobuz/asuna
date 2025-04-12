@@ -90,10 +90,6 @@ async def kick(ctx, member: discord.Member, *, reason=None):
   await ctx.send(f"{member} was kicked successfully.")
   await member.send(f"You got kicked in {member.guild.name} because {reason}")
 
-@client.command()
-async def ari(ctx):
-  await ctx.send("Ari is one of the developers good friends, and if you like friendly communities, you should join her server! https://discord.gg/rY2FSSJFr4 ")
-
 @client.command(name='avatar', aliases=['Avatar', 'av'])
 async def av_cmd(ctx, user: discord.Member):
 	mbed = discord.Embed(
