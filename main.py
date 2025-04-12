@@ -17,7 +17,7 @@ async def on_ready():
 async def support(ctx):
     embed=discord.Embed(title="**Get Support Now!**", url="https://discord.gg/x", description="Join the official Asuna Server to get help, report errors, or get access to features no one else can!", color=0xFF0000)
     embed.set_author(name="Asuna", icon_url=client.user.avatar_url)
-    embed.add_field(name="Support Server", value="https://discord.gg/AyPA9HSTuM", inline=True)
+    embed.add_field(name="Support Server", value="https://discord.gg/x", inline=True)
     embed.add_field(name="Help Command", value="a.help", inline=True)
     await ctx.send(embed=embed)
 
